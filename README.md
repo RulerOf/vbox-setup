@@ -6,7 +6,7 @@ Tested on Sierra (10.12) and High Sierra (10.13).
 
 ## Usage
 ```bash
-curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-update/master/vbox-install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-update/master/vbox-setup.sh | sudo bash
 ```
 
 Paste that at a Terminal prompt. Enter your password when prompted.
