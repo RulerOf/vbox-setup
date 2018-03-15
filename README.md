@@ -1,4 +1,4 @@
-# vbox-update
+# vbox-setup
 
 An "automatic" updater and installer for Virtualbox on Mac OS.
 
@@ -21,7 +21,7 @@ Tested on Sierra (10.12) and High Sierra (10.13).
 
 ## Usage
 ```bash
-curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-update/master/vbox-setup.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-setup/master/vbox-setup.sh | sudo bash
 ```
 
 Paste that at a Terminal prompt. Enter your password when prompted.
@@ -29,7 +29,7 @@ Paste that at a Terminal prompt. Enter your password when prompted.
 ## Example Output
 
 ```shell
-$ curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-update/master/vbox-setup.sh | sudo bash
+$ curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-setup/master/vbox-setup.sh | sudo bash
 Password:
 ----
 Installed VirtualBox version: 5.2.6
