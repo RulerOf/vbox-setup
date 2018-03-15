@@ -1,6 +1,6 @@
 # vbox-setup
 
-An "automatic" updater and installer for Virtualbox on Mac OS.
+An "automatic" installer and updater for Virtualbox on Mac OS.
 
 Tested on Sierra (10.12) and High Sierra (10.13).
 
