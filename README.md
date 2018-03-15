@@ -4,12 +4,69 @@ An "automatic" updater for Virtualbox on Mac OS.
 
 Tested on Sierra (10.12) and High Sierra (10.13).
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+## Table of Contents
+
+- [Usage](#usage)
+- [Example Output](#example-output)
+- [Details](#details)
+	- [What does it do?](#what-does-it-do)
+	- [What else does it do?](#what-else-does-it-do)
+- [Issues](#issues)
+- [Why?](#why)
+- [Contributing](#contributing)
+
+<!-- /TOC -->
+
 ## Usage
 ```bash
 curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-update/master/vbox-setup.sh | sudo bash
 ```
 
 Paste that at a Terminal prompt. Enter your password when prompted.
+
+## Example Output
+
+```shell
+$ curl -fsSL https://raw.githubusercontent.com/RulerOf/vbox-update/master/vbox-setup.sh | sudo bash
+Password:
+----
+Installed VirtualBox version: 5.2.6
+Latest VirtualBox version: 5.2.8
+----
+Downloading VirtualBox 5.2.8
+----
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 90.9M  100 90.9M    0     0  11.7M      0  0:00:07  0:00:07 --:--:-- 13.3M
+----
+Downloading VirtualBox Extension Pack 5.2.8
+----
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 18.5M  100 18.5M    0     0  4467k      0  0:00:04  0:00:04 --:--:-- 4470k
+----
+Mounting VirtualBox DMG
+----
+Installing VirtualBox
+----
+installer: Package name is Oracle VM VirtualBox
+installer: Upgrading at base path /
+installer: The upgrade was successful.
+----
+Unmounting VirtualBox installation image
+----
+Deleting VirtualBox-5.2.8-121009-OSX.dmg
+----
+Installing VirtualBox Extension Pack
+----
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+----
+Deleting Oracle_VM_VirtualBox_Extension_Pack-5.2.8-121009.vbox-extpack
+----
+VirtualBox installation complete!
+```
 
 ## Details
 
